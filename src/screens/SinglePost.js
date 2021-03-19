@@ -1,7 +1,10 @@
 import React from "react";
+import { SinglePost } from "../components/index"
 
 export const SinglePostScreen = () => {
     return (
-        <h1>Single Post Screen</h1>
+        <>
+        <SinglePost />
+        </>
     )
 }

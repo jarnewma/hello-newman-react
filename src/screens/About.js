@@ -1,7 +1,10 @@
 import React from "react";
+import { About } from "../components/index"
 
 export const AboutScreen = () => {
     return (
-        <h1>About Screen</h1>
+        <>
+        <About />
+        </>
     )
 }
