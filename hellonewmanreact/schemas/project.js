@@ -26,8 +26,8 @@ export default {
       options: {
         list: [
           { value: "personal", title: "Personal" },
-          { value: "personal", title: "Personal" },
-          { value: "personal", title: "Personal" },
+          { value: "company", title: "Company" },
+          { value: "school", title: "School" },
         ],
       },
     },

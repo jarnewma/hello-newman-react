@@ -1,7 +1,10 @@
 import React from "react";
+import { Project } from "../components/index";
 
 export const ProjectScreen = () => {
-    return (
-        <h1>Project Screen</h1>
-    )
-}
+  return (
+    <>
+      <Project />
+    </>
+  );
+};
