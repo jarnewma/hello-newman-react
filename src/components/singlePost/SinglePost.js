@@ -66,7 +66,6 @@ export const SinglePost = () => {
           />
         </header>
         <div className="px-16 lg:ox-48 py-12 lg:py-20 prose lg:prose-xl max-w-full">
-          BLOCK CONTENT
           <BlockContent
             blocks={singlePost.body}
             projectId="y0s1982p"
