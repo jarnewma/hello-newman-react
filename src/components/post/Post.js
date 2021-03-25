@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import sanityClient from "../../client.js";
-import image from '../../assets/silver-words.jpeg'
 
 export const Post = () => {
   const [postData, setPost] = useState(null);

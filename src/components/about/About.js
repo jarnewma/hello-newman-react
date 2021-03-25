@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import sanityClient from "../../client.js";
 import imageUrlBuilder from "@sanity/image-url";
 import BlockContent from "@sanity/block-content-to-react";
-import bgImage from "../../assets/silver-background.jpeg";
 import argoCone from "../../assets/argo-cone.jpg";
 import rafting from "../../assets/ww-rafting.jpg";
 
@@ -31,7 +30,6 @@ export const About = () => {
 
   return (
     <main className="relative bg-gray-700">
-      {/* <img src={bgImage} alt="Silver" className="absolute w-full h-full" /> */}
       <div className="p-10 lg:pt-48 container mx-auto relative">
         <section className="bg-gray-500 rounded-lg shadow-2xl lg:flex p-20">
           <img
