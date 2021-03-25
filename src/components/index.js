@@ -5,3 +5,4 @@ export * from './post'
 export * from './project'
 export * from './singlePost'
 export * from "./about"
+export * from './contact'

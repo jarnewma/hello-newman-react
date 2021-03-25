@@ -11,30 +11,37 @@ export const Navbar = () => {
             to="/"
             exact
             activeClassName="text-white"
-            className="inline-flex items-center py-6 px-3 mr-4 text-blue-400 hover:text-purple-800 text-4xl font-bold cursive tracking-widest"
+            className="inline-flex items-center py-6 px-3 mr-4 text-gray-400 hover:text-purple-800 text-4xl font-bold cursive tracking-widest"
           >
             Hello, Newman
           </NavLink>
           <NavLink
             to="/post"
-            activeClassName='text-blue-100 bg-blue-700'
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-600 hover:text-purple-800"
+            activeClassName='text-gray-100 bg-gray-700'
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-200 hover:text-purple-800"
           >
             Blog Posts
           </NavLink>
           <NavLink
             to="/project"
-            activeClassName='text-blue-100 bg-blue-700'
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-600 hover:text-purple-800"
+            activeClassName='text-gray-100 bg-gray-700'
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-200 hover:text-purple-800"
           >
             Projects
           </NavLink>
           <NavLink
             to="/about"
-            activeClassName='text-blue-100 bg-blue-700'
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-600 hover:text-purple-800"
+            activeClassName='text-gray-100 bg-gray-700'
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-200 hover:text-purple-800"
           >
             About Me
+          </NavLink>
+          <NavLink
+            to="/contact"
+            activeClassName='text-gray-100 bg-gray-700'
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-200 hover:text-purple-800"
+          >
+            Contact
           </NavLink>
         </nav>
         <div className="inline-flex py-3 px-3 my-6">

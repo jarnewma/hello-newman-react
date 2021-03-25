@@ -6,6 +6,7 @@ import {
     PostScreen,
     ProjectScreen,
     SinglePostScreen,
+    ContactScreen
   } from "../../screens/index";
   import { Navbar } from '../index'
 
@@ -19,6 +20,7 @@ export const Navigation = () => (
         < Route component={SinglePostScreen} path='/post/:slug' />
         < Route component={PostScreen} path='/post' />
         < Route component={ProjectScreen} path='/project' />
+        < Route component={ContactScreen} path='/contact' />
 
       </Switch>
     </BrowserRouter>
