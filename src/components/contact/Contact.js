@@ -24,12 +24,12 @@ export const Contact = () => {
   };
 
   return (
-    <main className="bg-gray-700 absolute w-full h-full">
-      <article className="container bg-gray-700 shadow-lg mx-auto">
+    <main className="bg-gray-dark absolute w-full h-full">
+      
         <header className="relative">
           <div className="relative h-full w-full flex items-center justify-center p-8">
             <div className="relative items-center justify-center bg-opacity-75 rounded p-12">
-              <h1 className="text-center text-2xl text-gray-200 font-bold cursive leading-none lg:leading-snug home-name">
+              <h1 className="text-center text-2xl text-gray-lightest font-bold cursive leading-none lg:leading-snug home-name">
                 {" "}
                 Contact Me{" "}
               </h1>
@@ -117,13 +117,12 @@ export const Contact = () => {
                   name="submit"
                   type="submit"
                   value="Send Message"
-                  className="focus:outline-none mt-5 bg-blue-500 px-4 py-2 text-white font-bold w-full"
+                  className="focus:outline-none mt-5 bg-blue-light px-4 py-2 text-white font-bold w-full"
                 />
               </form>
             </div>
           </div>
         </header>
-      </article>
     </main>
   );
 };

@@ -29,20 +29,20 @@ export const About = () => {
   if (!author) return <div>Loading...</div>;
 
   return (
-    <main className="relative bg-gray-700">
+    <main className="relative bg-gray-dark">
       <div className="p-10 lg:pt-48 container mx-auto relative">
-        <section className="bg-gray-500 rounded-lg shadow-2xl lg:flex p-20">
+        <section className="bg-blue shadow-2xl lg:flex p-20">
           <img
             src={urlFor(author.authorImage).url()}
-            className="rounded flex w-32 h-32 lg:w-96 lg:h-80 mr-8"
+            className="flex w-32 h-32 lg:w-96 lg:h-80 mr-8"
             alt={author.name}
           />
           <div className="text-lg flex flex-col justify-center">
-            <h1 className="cursive text-6l text-blue-400 mb-4 text-4xl">
+            <h1 className="cursive text-6l text-gray mb-4 text-4xl">
               Hey there. I'm{" "}
-              <span className="text-blue-200">{author.name}</span>
+              <span className="text-gray-lightest">{author.name}</span>
             </h1>
-            <div className="prose lg:prose-xl text-white">
+            <div className="prose lg:prose-xl text-gray-lightest">
               <BlockContent
                 blocks={author.bio}
                 projectId="y0s1982p"
@@ -52,23 +52,26 @@ export const About = () => {
           </div>
         </section>
         <br></br>
-        <section className="bg-gray-500 rounded-lg shadow-2xl lg:flex p-20">
+        <section className="bg-blue shadow-2xl lg:flex p-20">
           <img
             src={argoCone}
-            className="rounded flex w-32 h-32 lg:w-96 lg:h-80 mr-8"
+            className="flex w-32 h-32 lg:w-96 lg:h-80 mr-8"
             alt="Argo"
           />
           <div className="text-lg flex flex-col justify-center">
-            <h1 className="cursive text-6l text-blue-400 mb-4 text-4xl">
-              This is <span className="text-blue-200">Argo</span>
+            <h1 className="cursive text-6l text-gray mb-4 text-4xl">
+              This is <span className="text-gray-lightest">Argo</span>
             </h1>
-            <div className="prose lg:prose-xl text-white">
+            <div className="prose lg:prose-xl text-gray-lightest">
               Argo is a blue heeler/shithead mix. Contrary to popular belief, he
               was not named after the Ben Affleck movie or the corn starch, but
               as an homage to Jason and the Argonauts of Greek Mythology. We
               like to work on agility training, and are in the early stages of
               learning{" "}
-              <a href="https://www.youtube.com/watch?v=2t8Vei03S5Q">
+              <a 
+              href="https://www.youtube.com/watch?v=2t8Vei03S5Q"
+              className="hover:text-pink"
+              >
                 treibball
               </a>
               . If you are a squirrel, kindly leave this page and please refrain
@@ -77,28 +80,31 @@ export const About = () => {
           </div>
         </section>
         <br></br>
-        <section className="bg-gray-500 rounded-lg shadow-2xl lg:flex p-20">
+        <section className="bg-blue shadow-2xl lg:flex p-20">
           <img
             src={rafting}
-            className="rounded flex w-32 h-32 lg:w-96 lg:h-80 mr-8"
+            className="flex w-32 h-32 lg:w-96 lg:h-80 mr-8"
             alt="Rafting"
           />
           <div className="text-lg flex flex-col justify-center">
-            <h1 className="cursive text-6l text-blue-400 mb-4 text-4xl">
+            <h1 className="cursive text-6l text-gray mb-4 text-4xl">
               Fun Stuff
             </h1>
             <div className="prose lg:prose-xl text-white">
-              I try to stay active as much as possible. I run mini-marathons,
-              hike as much as possible, travel as much as possible, and enjoy
-              doing weird stuff like{" "}
-              <a href="https://www.youtube.com/watch?v=2t8Vei03S5Q">
+              I find movement to be good for the soul, so I try to stay active.
+              I run mini-marathons, hike as much as possible, travel as much as
+              possible, and enjoy doing weird stuff like{" "}
+              <a 
+              href="https://www.youtube.com/watch?v=2t8Vei03S5Q"
+              className="hover:text-pink"
+              >
                 extreme ironing
               </a>
               . I've lived on three continents and visited four, with the main
               highlight of my travels thus far being a night dive in the Great
-              Barrier Reef during its once a year coral spawning event. I may also
-              have a problem with googly eyes, as I have been known to put them
-              on anything that seems like a good target. 👀
+              Barrier Reef during its once-a-year coral spawning event. I may
+              also have a problem with googly eyes, as I have been known to put
+              them on anything that seems like a good target. 👀
             </div>
           </div>
         </section>

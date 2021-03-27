@@ -4,42 +4,42 @@ import { SocialIcon } from 'react-social-icons';
 
 export const Navbar = () => {
   return (
-    <header className="bg-black">
+    <header className="bg-blue-dark">
       <div className="container mx-auto flex justify-between">
         <nav className="flex">
           <NavLink
             to="/"
             exact
             activeClassName="text-white"
-            className="inline-flex items-center py-6 px-3 mr-4 text-gray-400 hover:text-purple-800 text-4xl font-bold cursive tracking-widest"
+            className="inline-flex items-center py-6 px-3 mr-4 text-gray-light hover:text-pink text-4xl font-bold cursive tracking-widest"
           >
             Hello, Newman
           </NavLink>
           <NavLink
             to="/post"
-            activeClassName='text-gray-100 bg-gray-700'
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-200 hover:text-purple-800"
+            activeClassName='text-gray-lightest bg-gra365496'
+            className="inline-flex items-center py-3 px-3 my-6 font-bold rounded text-gray-lightest hover:text-pink"
           >
             Blog Posts
           </NavLink>
           <NavLink
             to="/project"
-            activeClassName='text-gray-100 bg-gray-700'
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-200 hover:text-purple-800"
+            activeClassName='text-gray-lightest bg-gra365496'
+            className="inline-flex items-center py-3 px-3 my-6 font-bold rounded text-gray-lightest hover:text-pink"
           >
             Projects
           </NavLink>
           <NavLink
             to="/about"
-            activeClassName='text-gray-100 bg-gray-700'
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-200 hover:text-purple-800"
+            activeClassName='text-gray-lightest bg-gra365496'
+            className="inline-flex items-center py-3 px-3 my-6 font-bold rounded text-gray-lightest hover:text-pink"
           >
             About Me
           </NavLink>
           <NavLink
             to="/contact"
-            activeClassName='text-gray-100 bg-gray-700'
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-200 hover:text-purple-800"
+            activeClassName='text-gray-lightest bg-gra365496'
+            className="inline-flex items-center py-3 px-3 my-6 font-bold rounded text-gray-lightest hover:text-pink"
           >
             Contact
           </NavLink>
@@ -50,6 +50,7 @@ export const Navbar = () => {
             className="mr-4" 
             target="blank" 
             fgColor="#fff"
+            bgColor="#95ABDA"
             style={{ height: 35, width: 35 }}
             />
             <SocialIcon 
@@ -57,6 +58,7 @@ export const Navbar = () => {
             className="mr-4" 
             target="blank" 
             fgColor="#fff"
+            bgColor="#95ABDA"
             style={{ height: 35, width: 35 }}
             />
             <SocialIcon 
@@ -64,6 +66,7 @@ export const Navbar = () => {
             className="mr-4" 
             target="blank" 
             fgColor="#fff"
+            bgColor="#95ABDA"
             style={{ height: 35, width: 35 }}
             />
         </div>
