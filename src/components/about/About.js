@@ -31,10 +31,10 @@ export const About = () => {
   return (
     <main className="relative bg-gray-dark">
       <div className="p-10 lg:pt-48 container mx-auto relative">
-        <section className="bg-blue shadow-2xl lg:flex p-20">
+        <section className="bg-blue shadow-2xl rounded lg:flex p-20">
           <img
             src={urlFor(author.authorImage).url()}
-            className="flex w-32 h-32 lg:w-96 lg:h-80 mr-8"
+            className="flex w-32 h-32 rounded lg:w-96 lg:h-80 mr-8"
             alt={author.name}
           />
           <div className="text-lg flex flex-col justify-center">
@@ -52,10 +52,10 @@ export const About = () => {
           </div>
         </section>
         <br></br>
-        <section className="bg-blue shadow-2xl lg:flex p-20">
+        <section className="bg-blue shadow-2xl rounded lg:flex p-20">
           <img
             src={argoCone}
-            className="flex w-32 h-32 lg:w-96 lg:h-80 mr-8"
+            className="flex w-32 h-32 rounded lg:w-96 lg:h-80 mr-8"
             alt="Argo"
           />
           <div className="text-lg flex flex-col justify-center">
@@ -80,10 +80,10 @@ export const About = () => {
           </div>
         </section>
         <br></br>
-        <section className="bg-blue shadow-2xl lg:flex p-20">
+        <section className="bg-blue shadow-2xl rounded lg:flex p-20">
           <img
             src={rafting}
-            className="flex w-32 h-32 lg:w-96 lg:h-80 mr-8"
+            className="flex w-32 h-32 rounded lg:w-96 lg:h-80 mr-8"
             alt="Rafting"
           />
           <div className="text-lg flex flex-col justify-center">

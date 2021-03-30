@@ -52,7 +52,7 @@ export const Contact = () => {
                     type="text"
                     name="first_name"
                     placeholder="First Name"
-                    className="border border-gray-500 px-4 py-2 focus:outline-nnone focus:border-blue-500"
+                    className="border border-gray-500 px-4 py-2 rounded focus:outline-nnone focus:border-blue-500"
                   />
                   {errors.user_name && errors.user_name.type === "required" && (
                     <div role="alert">
@@ -66,7 +66,7 @@ export const Contact = () => {
                     aria-invalid={errors.last_name ? "true" : "false"}
                     ref={register({ required: true })}
                     placeholder="Last Name"
-                    className="border border-gray-500 px-4 py-2 focus:outline-nnone focus:border-blue-500"
+                    className="border border-gray-500 px-4 py-2 rounded focus:outline-nnone focus:border-blue-500"
                   />
                   {errors.user_name && errors.user_name.type === "required" && (
                     <div role="alert">
@@ -80,7 +80,7 @@ export const Contact = () => {
                     aria-invalid={errors.email ? "true" : "false"}
                     ref={register({ required: true })}
                     placeholder="Email"
-                    className="border border-gray-500 px-4 py-2 focus:outline-nnone focus:border-blue-500 col-span-2"
+                    className="border border-gray-500 px-4 py-2 rounded focus:outline-nnone focus:border-blue-500 col-span-2"
                   />
                   {errors.user_name && errors.user_name.type === "required" && (
                     <div role="alert">
@@ -94,7 +94,7 @@ export const Contact = () => {
                     aria-invalid={errors.subject ? "true" : "false"}
                     ref={register({ required: true })}
                     placeholder="Subject"
-                    className="border border-gray-500 px-4 py-2 focus:outline-nnone focus:border-blue-500 col-span-2"
+                    className="border border-gray-500 px-4 py-2 rounded focus:outline-nnone focus:border-blue-500 col-span-2"
                   />
                   {errors.user_name && errors.user_name.type === "required" && (
                     <div role="alert">
@@ -109,7 +109,7 @@ export const Contact = () => {
                     name="message"
                     aria-invalid={errors.message ? "true" : "false"}
                     ref={register({ required: true })}
-                    className="border border-gray-500 px-4 py-2 focus:outline-none focus:border-blue-500 col-span-2"
+                    className="border border-gray-500 px-4 py-2 rounded focus:outline-none focus:border-blue-500 col-span-2"
                     placeholder="Type your message"
                   />
                 </div>
@@ -117,7 +117,7 @@ export const Contact = () => {
                   name="submit"
                   type="submit"
                   value="Send Message"
-                  className="focus:outline-none mt-5 bg-blue-light px-4 py-2 text-white font-bold w-full"
+                  className="focus:outline-none mt-5 bg-blue-light rounded px-4 py-2 text-white font-bold w-full"
                 />
               </form>
             </div>
