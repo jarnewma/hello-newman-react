@@ -3,8 +3,8 @@ import image from "../../assets/hello-newman3.webp";
 
 export const Home = () => {
   return (
-    <main>
-      <img src={image} alt="Seinfeld" className="absolute w-full h-full" />
+    <main className="min-h-screen">
+      <img src={image} alt="Seinfeld" className="absolute object-cover w-full h-full" />
       <article className="container shadow-lg mx-auto">
         <header className="relative">
           <div className="absolute inset-y-40 left-0 bg-opacity-75 rounded p-12">
@@ -15,7 +15,7 @@ export const Home = () => {
             <div className="relative items-center text-2xl text-white">
               I'm an entrepreneur/software engineer based in Indianapolis. I
               consider myself a generalist with the ability to shift focus
-              towards whatever the business' needs may be, but I'm most
+              towards whatever the business's needs may be, but I'm most
               passionate about developing creative solutions and providing
               insightful strategies to solve problems. And yes, my last name is
               actually Newman. Thanks for stopping by!

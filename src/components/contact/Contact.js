@@ -24,7 +24,7 @@ export const Contact = () => {
   };
 
   return (
-    <main className="bg-gray-dark absolute w-full h-full">
+    <main className="bg-gray-dark object-cover w-full h-full min-h-screen p-12">
       
         <header className="relative">
           <div className="relative h-full w-full flex items-center justify-center p-8">

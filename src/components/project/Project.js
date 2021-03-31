@@ -22,11 +22,11 @@ export const Project = () => {
   });
 
   return (
-      <main className="bg-gray-700 min-h-screen p-12">
+      <main className="bg-gray-700 object-cover w-full h-full min-h-screen p-12">
           <section className="container mx-auto">
               <h1 className="text-5xl text-gray-light flex justify-center cursive">My Projects</h1>
               <h2 className="text-lg text-gray-light flex justify-center mb-12">Projects Page</h2>
-              <section className="grid grid-cols-2 gap-8">
+              <section className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
                   {projectData && projectData.map((project, index) => (
                   <article className="relative rounded-lg shadow-xl bg-blue p-16">
                       <h3 className="text-gray-lightest text-3xl font-bold mb-2 hover:text-pink">

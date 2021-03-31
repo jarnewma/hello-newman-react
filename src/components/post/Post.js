@@ -25,7 +25,7 @@ export const Post = () => {
   }, []);
 
   return (
-    <main className="bg-gray-700 min-h-screen p-12">
+    <main className="bg-gray-700 object-cover w-full h-full min-h-screen p-12">
       <section className="container mx-auto">
         <h1 className="text-5xl text-gray-lightest flex justify-center cursive">
           Blog Posts
