@@ -10,9 +10,9 @@ export const Contact = () => {
     generateContactNumber();
     sendForm('default_service', 'template_b5ai2m9', '#contact-form')
       .then(function(response) {
-        console.log('SUCCESS!', response.status, response.text);
+        alert('Your message has been sent', response.status, response.text);
       }, function(error) {
-        console.log('FAILED...', error);
+        alert('FAILED...', error);
       });
   }
 

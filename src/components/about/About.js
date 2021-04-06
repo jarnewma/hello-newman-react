@@ -95,7 +95,7 @@ export const About = () => {
               I run mini-marathons, hike as much as possible, travel as much as
               possible, and enjoy doing weird stuff like{" "}
               <a 
-              href="https://www.youtube.com/watch?v=2t8Vei03S5Q"
+              href="https://www.youtube.com/watch?v=njHE4S-HD3I"
               className="hover:text-pink"
               >
                 extreme ironing
