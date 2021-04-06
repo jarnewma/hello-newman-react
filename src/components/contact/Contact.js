@@ -12,7 +12,7 @@ export const Contact = () => {
       .then(function(response) {
         alert('Your message has been sent', response.status, response.text);
       }, function(error) {
-        alert('FAILED...', error);
+        alert('Oops, an error has occured', error);
       });
   }
 
